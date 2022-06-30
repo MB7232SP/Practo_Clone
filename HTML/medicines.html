@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5594c2eb28.js" crossorigin="anonymous"></script>
+    <title>cart page</title>
+    <style>
+        #cartheader{
+            margin-top: -8px;
+            height: 70px;
+            margin-bottom: 20px;
+            width: 100%;
+            background-color: white;
+        }
+        body{
+            background-color: #f0f0f5;
+        }
+        #cartheader>img{
+            padding: 20px 0px 0px 50px;
+        }
+        #cartheader+a{
+            font-size: 18px;
+            font-weight: 400;
+            margin-left: 25%;
+            text-decoration: none;
+            color: #1ebef0;
+        }
+        #cartheader+a>i {
+            padding-right: 10px;
+        }
+        #showItem{
+            width: 50%;
+            margin: auto auto;
+            background-color: white;
+            margin-top: 20px;
+        }
+        #cartheadding{
+            display: flex;
+            justify-content: space-around;
+        }
+        #cartheadding>span{
+            margin: auto 0;
+        }
+        .emptyemage{
+            width: 210px;
+            height: 180px;
+           margin-left: 35%;
+        }
+        .emptyemage+h3{
+            text-align: center;
+        }
+        #totalitem{
+            margin: 20px 0px;
+        }
+        #buymore{
+            font-size: 14px;
+            color: #14BEF0;
+            margin: 20px 0px 0px 20px;
+            padding: 10px 40px;
+            border: 2px solid #14BEF0;
+            border-radius: 5px;
+            background-color: white;
+        }
+       
+    </style>
+    <link rel="icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/commons/9/96/Practo_Health_Logo.png">
+    <!-- <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script> -->
+</head>
+
+<body>
+    <div id="cartheader">
+        <img src="https://www.practostatic.com/ecommerce-assets/static/media/practo.8e3ca798.svg" alt="">
+    </div>
+    <a href="productpaze.html"> <i class="fa-solid fa-arrow-left"></i>Go to previous page</a>
+    <div id="showItem">
+       <div id="cartheadding">
+        <span>
+            <i class="fa-solid fa-location-dot"></i>
+               Deliver to RWWW+MFC, Narpa ...
+               <i class="fa-solid fa-angle-down"></i>
+            </span>
+            <h3>My Cart: 0 item</h3>
+       </div>
+       <hr>
+       <div id="totalitem">
+           <img class="emptyemage" src="https://www.practostatic.com/ecommerce-assets/static/media/EmptyCart.a7ae30f4.svg" alt="empty">
+           <h3>Your cart is empty</h3>
+       </div>
+       <div>
+           <a href="productpaze.html"><button id="buymore">Add more medicines</button></a>
+       </div>
+    </div>
+   
+</body>
+</html>
