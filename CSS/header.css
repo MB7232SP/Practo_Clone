@@ -5,7 +5,7 @@ a {
 
 nav {
     display: flex;
-    width: 100%;
+    /* width: 100%; */
     border-bottom: 2px solid #f0f0f5;
     justify-content: space-evenly;
     margin-top: 5px;
@@ -73,9 +73,7 @@ nav>div:nth-child(2) {
     position: relative;
     top: 13px;
 }
-#menu_hide >a>div>p{
-    display: none;
-}
+
 #menu_visible {
     display: flex;
     justify-content: flex-end;
@@ -167,10 +165,11 @@ nav>div:nth-child(2) {
 }
 
 
-@media all and (max-width:810px) {
+@media all and (max-width:801px) {
 
     #menu_icon{
         display: inline-block;
+       
     }
 
 
@@ -180,7 +179,7 @@ nav>div:nth-child(2) {
 
     #menu_hide,
     #menu_visible {
-        display: none;
+        display:none;
     }
 
     #logo {
@@ -191,6 +190,7 @@ nav>div:nth-child(2) {
     .fa-x {
         margin-left: 25px;
         color: #787887;
+        
     }
 
     nav>div:nth-child(3) {
@@ -203,9 +203,8 @@ nav>div:nth-child(2) {
     }
 
     #phone>div>img {
-        /* height: 24px;
-        width: 100px; */
-        display: none;
+        height: 24px;
+        width: 100px;
     }
 
     #phone>button {

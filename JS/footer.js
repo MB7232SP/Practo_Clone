@@ -227,8 +227,8 @@ function display_footer(x) {
                 Connect with doctors online, available 24/7, from the comfort of your
                 home.</span>
 
-            <div>
-                <span><b>Get the link to download the app</b></span>
+            <div style="margin-top:20px" >
+                <span style="margin-bottom:20px"><b>Get the link to download the app</b></span>
                 <div>
                     <div id="contact_number">
                         <div><b>+91</b></div>
@@ -237,10 +237,11 @@ function display_footer(x) {
                     <button>Send SMS</button>
                 </div>
 
+               <a herf="https://play.google.com/store/apps/details?id=com.practo.fabric&referrer=af_tranid%3DGCT1W6FoKoVv3RFP3EZ46g%26pid%3Dweb%26c%3Dhomepage">
                 <img src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/google_play.png"
-                    alt="">
-                <img src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/apple_store.png"
-                    alt="">
+                    alt=""></a>
+                <a herf="https://apps.apple.com/IN/app/id953772015?mt=8"><img src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/apple_store.png"
+                    alt=""></a>
             </div>
         </div>
         `
