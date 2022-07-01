@@ -1,5 +1,8 @@
 var cartarr = JSON.parse(localStorage.getItem("cartitem"))||[];
 display_products(cartarr);
+
+
+
 function display_products(product){
     document.querySelector("#totalitem").innerText = "";
     if(product.length==0){
@@ -81,4 +84,13 @@ function increes_item(index,product){
     product[index].quantity = num+1;
     localStorage.setItem("cartitem",JSON.stringify(product));
     display_products(product);
+}
+document.querySelector(".check").addEventListener("click",gotopaymentpage)
+function gotopaymentpage(){
+    var num = parseInt(localStorage.getItem("totalprice"));
+      if(num>1){
+         window.location.href = "..//HTML/payment.html"
+      }else{
+          alert("Add Product First");
+      }
 }
