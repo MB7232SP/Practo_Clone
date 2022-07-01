@@ -1,0 +1,108 @@
+#catagrybaar{
+    /* width: 100%; */
+    background-color: white;
+    font-weight: bold;
+    display: flex;
+   justify-content: space-between;
+   padding: 20px 0;
+    margin: 0 10%;
+   padding-top: 30px;
+}
+#catagrybaar>div:hover{
+    color: #1ebef0;
+}
+#catagrybaar_doun{
+   display: block;
+   width: 80%;
+   margin-left: 10%;
+   margin-right: 10%;
+}
+#maincontainer{
+    display: flex;
+    gap: 20px;
+}
+#product_catager{
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    gap: 20px;
+}
+.firstemage{
+   width: 200px;
+   height: 135px;
+   margin-left: 50px;
+   margin-top: 12px;
+}
+.secondemage{
+    width: 200px;
+   height: 135px;
+   margin-left: 50px;
+   margin-top: -23px;
+}
+.choosecatagerys{
+    width: 300px;
+    padding: 10px;
+   /* border-right: 0.5px solid rgb(113, 106, 106); */
+}
+#product_catager>div{
+    height: 205px;
+    width: 260px;
+    border-radius: 10px;
+}
+#product_catager>div:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+#product_catager>div>h3{
+    margin-left: 20px;
+    color: white;
+}
+#product_catager>div>p {
+    margin-left: 20px;
+    color: white;
+}
+.heading1_products{
+      display: flex;
+}
+.heading1_products>p{
+    margin-top: 35px;
+    margin-left: 5px;
+}
+hr{
+    color: rgb(247, 247, 233);
+}
+#displayproducts {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+     gap: 10px;
+}
+#displayproducts>div>img{
+    height: 150px;
+    display: block;
+    margin: 0px auto;
+}
+#displayproducts>div{
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+    padding: 10px;
+}
+#displayproducts>div:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* padding: 10px; */
+}
+.type {
+    width: 110px;
+    height: 32px;
+    border: 0.5px solid rgb(209, 200, 200);
+    background-color: white;
+}
+.addtocart_button{
+    width: 110px;
+    height: 32px;
+   margin-left: 20px;
+   color: #1ebef0;
+   border: 1px solid #1ebef0;
+   font-size: 15px;
+   font-weight: 500;
+}
+.addtocart_button:hover{
+   background-color: #1ebef0;
+   color: white;
+}

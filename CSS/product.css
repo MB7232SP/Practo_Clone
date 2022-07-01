@@ -1,0 +1,105 @@
+
+       .pazeemage {
+        margin-top: 10px;
+        width: 100%;
+        background-color: #c5ced1;
+        margin-bottom: 50px;
+    }
+    #catagery {
+        display: block;
+        width: 80%;
+        margin: 20px auto;
+    }
+    .catagryemage {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 10px;
+    }
+    .catagryemage div>img,.addlink>img{
+        width: 100%;
+        transition: 0.5s all ease-in-out;
+    }
+    .catagryemage div>img:hover{
+     transform: scale(1.1);
+    }
+    .addlink>img:hover{
+        transform: scale(1.1);
+    }
+    #sampleproduuct {
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        gap: 10px;
+    }
+    #sampleproduuct>div{
+        padding: 10px 10px;
+        border-radius: 10px;
+    }
+    #sampleproduuct>div:hover{
+     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+    #sampleproduuct>div>h4+div{
+        margin-top: -10px;
+        margin-bottom: -15px;
+        display: flex;
+    }
+    #sampleproduuct>div>img{
+        width: 100%;
+    }
+    #sampleproduuct>div>h4+div>p{
+        margin-left: 10px;
+    }
+    #sampleproduuct>div>h4{
+        font-size: 20px;
+    }
+   .linethrough{
+       text-decoration: line-through;
+   }
+   .linethrough+p{
+       color: #00a500;
+   }
+   #undersample_product{
+       margin-bottom: 30px;
+       margin-top: 50px;
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       gap: 20px;
+   }
+   #undersample_product>div>h5{
+       color: #1ebef0;
+   }
+   #undersample_product>div>p{
+       font-size: 22px;
+      width: 90%;
+   }
+   #undersample_product>div>img{
+      width: 100%;
+   }
+  #catagery+img{
+      width: 100%;
+      background: #e7f1f7;
+  }
+  #catagery+img+h1{
+      text-align: center;
+      margin-top: 20px;
+  }
+  .review {
+      padding: auto 50px;
+      font-size: 20px;
+      width: 67%;
+     text-align: center;
+     margin: 0px auto;
+  }
+  .review+div{
+     display: flex;
+     justify-content: center;
+     margin-bottom: 30px;
+  }
+  .review+div>img{
+      width: 40px;
+      height: 40px;
+      border-radius: 30px;
+  }
+  .review+div>div>h5{
+      margin: 3px 3px;
+      font-size: 12px;
+  }

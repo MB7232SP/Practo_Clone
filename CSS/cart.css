@@ -1,0 +1,44 @@
+#sarchpro{
+    position: sticky;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background-color: white;
+    /* margin-top: -15px; */
+    top: 0;
+  }
+  .searchicon+a>button{
+      padding: 0px 40px;
+      height: 40px;
+      border: 0;
+      background-color: #1ebef0;
+      color: white;
+      font-size: 20px; 
+  }
+  .searchicon {
+      padding-left: 53px;
+      background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat left;
+      background-size: 20px;
+      width: 33%;
+      height: 45px;
+      background-position: 20px;
+      border-radius: 5px;
+      outline: none;
+      border: 0.5px solid rgb(226, 226, 239);
+  }
+  .searchicon:focus{
+      border: 1px solid blue;
+  }
+   .fa-shopping-cart{
+       padding-right: 20px;
+   }
+   #cartvalue{
+       position: absolute;
+      display: block;
+      margin-left: 54%;
+      background-color: white;
+      padding: 1px 5px;
+      margin-top: 2px;
+   }
