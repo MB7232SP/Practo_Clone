@@ -1,14 +1,6 @@
 var total = localStorage.getItem("totalprice");
 var tag = document.querySelector("#total_amount");
-if(total=="0"){
-    var h1 = document.createElement("h1");
-    h1.innerText = "Please First Add to cart Whatever You want to buy";
-
-    document.querySelector("#payment_details").innerText = "";
-    document.querySelector("#payment_details").append(h1);
-}else{
-    tag.innerText =total;
-}
+tag.innerText =total;
 document.querySelector("#submit_Card").addEventListener("click",Check_Card_Details);
 function Check_Card_Details(){
     var cardNumber = document.querySelector("#card_Number").value;
@@ -24,14 +16,10 @@ function Check_Card_Details(){
        alert("Please Inter The Card Holder Name");
     }
     else{
-        alert("ThankYou for shopping with us");
+        alert("Your Order Will be deleverd Soon");
         var arr = [];
         localStorage.setItem("cartitem",JSON.stringify(arr));
-        var link = document.createElement("a");
-        link.setAttribute("src","../HTML/product.html");
-
-        document.querySelector(".option2").innerText = "Thankyou Your Order Will be deleverd Soon ";
-        
+        window.location.href = "../HTML/thankyou.html"
         document.querySelector("#total_amount").innerText = "0";
         localStorage.setItem("totalprice",0);
     }
