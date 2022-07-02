@@ -1,0 +1,128 @@
+#cartheader{
+    margin-top: -8px;
+    height: 70px;
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: white;
+}
+body{
+    background-color: #f0f0f5;
+}
+#cartheader>img{
+    padding: 20px 0px 0px 50px;
+}
+#cartheader+a{
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 25%;
+    text-decoration: none;
+    color: #1ebef0;
+}
+#cartheader+a>i {
+    padding-right: 10px;
+}
+#showItem{
+    width: 50%;
+    margin: auto auto;
+    background-color: white;
+    margin-top: 20px;
+}
+#cartheadding{
+    display: flex;
+    justify-content: space-around;
+}
+#cartheadding>span{
+    margin: auto 0;
+}
+.emptyemage{
+    width: 210px;
+    height: 180px;
+   margin-left: 35%;
+}
+.emptyemage+h3{
+    text-align: center;
+}
+#totalitem{
+    margin: 20px 0px;
+}
+#buymore{
+    font-size: 14px;
+    color: #14BEF0;
+    margin: 20px 0px 0px 20px;
+    padding: 10px 40px;
+    border: 2px solid #14BEF0;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 70px;
+}
+body{
+    margin: 0 0;
+}
+#displayammount{
+    display: flex;
+    margin: 20px 0px 0px 20px;
+}
+#checkout{
+    position: fixed;
+    width: 50%;
+    height: 160px;
+    bottom: 0;
+    background-color: white;
+    margin-left: 25%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.check{
+    width: 95%;
+    height: 40px;
+    margin-left: 20px;
+    background-color: #14BEF0;
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.totalitemdiv{
+    display: flex;
+    justify-content: space-between;
+}
+.subdiv1{
+    display: flex;
+}
+.subdiv1>div>img{
+    height: 100px;
+    width: 100px;
+}
+.buttondiv{
+    display: flex;
+    /* padding-left: 20px; */
+    margin-left: 20px;
+}
+.subdiv1>div>p{
+    margin-top: -10px;
+    font-size: 12px;
+}
+.buttondiv>button{
+     height: 35px;
+     width: 35px;
+     color: #14BEF0;
+     font-size: 20px;
+     border: 1px solid #14BEF0;
+}
+.buttondiv>p{
+    height: 35px;
+    width: 35px;
+    background-color: #14BEF0;
+    color: white;
+    margin: auto auto;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    /* margin-right: 10px; */
+}
+#totalitem+div{
+    margin-bottom: 160px;
+}
+.check:hover{
+    background-color: blue;
+}

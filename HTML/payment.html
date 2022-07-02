@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5594c2eb28.js" crossorigin="anonymous"></script>
+    <title>Payment page</title>
+    <link rel="icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/commons/9/96/Practo_Health_Logo.png">
+    <link rel="stylesheet" href="../CSS/payment.css">
+    
+</head>
+<body>
+    <div id="cartheader">
+        <img src="https://www.practostatic.com/ecommerce-assets/static/media/practo.8e3ca798.svg" alt="">
+    </div>
+    <a id="option5" href="../HTML/cartpage.html"> <i class="fa-solid fa-arrow-left"></i>Back to My Cart</a>
+    <div id="payment_details">
+         <div id="payment_option">
+             <div>
+                 <h3 class="option">Payment Options</h3>
+            </div>
+             <div id="amount">
+                 <h3> Amount To Pay : ₹</h3>
+                 <h3 id="total_amount"></h3>
+            </div>
+         </div>
+        <div class="option2">
+             <div id="option3">
+                 <p class="debitcard">Debit/Credit card</p>
+                 <hr>
+                 <p>Paytm Postpaid and Wallet</p>
+                 <hr>
+                 <p>UPI</p>
+                 <hr>
+                 <p>Google Pay</p>
+                 <hr>
+                 <p>Amazon Pay</p>
+                 <hr>
+                 <p>Phone Pay</p>
+                 <hr>
+                 <p>Net Banking</p>
+                 <hr>
+                 <p>Pay Later</p>
+                 <hr>
+                 <p>Others</p>
+                 <hr>
+             </div>
+             <div>
+                 <div id="card_details">
+                    <h5>CARD NUMBER</h5>
+                    <input id="card_Number" type="number" placeholder="XXXX XXXX XXXX XXXX">
+                    <hr> 
+                    <h5>CARD HOLDER'S NAME</h5>
+                    <input id="Holder_Name" type="text" placeholder="Eg: John Doe">
+                    <hr>
+                    <div class="date_cvv">
+                        <div>
+                            <h5>VALID UPTO</h5>
+                            <input id="Expaiy_Date" type="text" placeholder="MM/YY">
+                            <hr>
+                        </div>
+                        <div>
+                           <h5>CVV</h5>
+                           <input id="CVV" type="number" placeholder="">
+                           <hr>
+                        </div>
+                    </div>
+                 </div>
+                 <p id="secure">Your transaction is 100% secure</p>
+                 <img src="https://cardguru.io/assets/credit-card-logos.png" alt="">
+                 <p id="declration">Remember this card (Your CVV won't be saved)</p>
+                 <button id="submit_Card">Pay</button>
+             </div>
+        </div> 
+    </div>
+</body>
+</html>
+<script src="../JS/payment.js"></script>
