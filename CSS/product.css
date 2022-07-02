@@ -1,8 +1,8 @@
 
        .pazeemage {
-        margin-top: 10px;
+        margin-top: -70px;
         width: 100%;
-        background-color: #c5ced1;
+        background-color: #d2dadd;
         margin-bottom: 50px;
     }
     #catagery {
@@ -35,7 +35,7 @@
         border-radius: 10px;
     }
     #sampleproduuct>div:hover{
-     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
     }
     #sampleproduuct>div>p+div{
         margin-top: -10px;
@@ -102,4 +102,22 @@
   .review+div>div>h5{
       margin: 3px 3px;
       font-size: 12px;
+  }
+  #slider_emage{
+      margin: 0 0;
+  }
+  .fa-angle-right{
+      position: relative;
+      left: 98%;
+      top: 180px;
+      font-size: 40px;
+  }
+  .fa-angle-left{
+    position: relative;
+    left: 1%; 
+    top: 150px;
+    font-size: 40px;
+  }
+  #slider_emage>p{
+      margin: 0 0;
   }
