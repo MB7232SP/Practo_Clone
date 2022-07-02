@@ -7,6 +7,8 @@
    padding: 20px 0;
     margin: 0 10%;
    padding-top: 30px;
+   margin-top: 5px;
+   
 }
 #catagrybaar>div:hover{
     color: #1ebef0;
@@ -30,13 +32,13 @@
    width: 200px;
    height: 135px;
    margin-left: 50px;
-   margin-top: 12px;
+   margin-top: 28px;
 }
 .secondemage{
     width: 200px;
    height: 135px;
    margin-left: 50px;
-   margin-top: -23px;
+   margin-top: 8px;
 }
 .choosecatagerys{
     width: 300px;
@@ -54,6 +56,7 @@
 #product_catager>div>h3{
     margin-left: 20px;
     color: white;
+    margin-top: 20px;
 }
 #product_catager>div>p {
     margin-left: 20px;
@@ -82,6 +85,14 @@ hr{
 #displayproducts>div{
     /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
     padding: 10px;
+    
+}
+.productname{
+    margin: 20px;
+    margin-bottom: 30px;
+}
+.productname+h2 {
+    margin: 20px;
 }
 #displayproducts>div:hover{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -105,4 +116,26 @@ hr{
 .addtocart_button:hover{
    background-color: #1ebef0;
    color: white;
+}
+.choosecatagerys>p,hr{
+       margin: 10px;
+}
+#home_care{
+    padding: 20px; 
+ }
+ .heading1_products>h1{
+     margin-top: 20px;
+ }
+ .heading1_products+h1{
+     margin: 20px;
+ }
+ .heading1_products{
+     margin-bottom: 50px;
+ }
+ .heading1_products+h3{
+     margin-bottom: 20px;
+ }
+.best{
+    margin-top: 30px;
+    margin-bottom: 30px;
 }

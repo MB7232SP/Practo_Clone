@@ -38,8 +38,8 @@
         box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
     }
     #sampleproduuct>div>p+div{
-        margin-top: -10px;
-        margin-bottom: -15px;
+      
+        margin-bottom: 10px;
         display: flex;
     }
     #sampleproduuct>div>img{
@@ -50,6 +50,7 @@
     }
     #sampleproduuct>div>p{
         font-size: 14px;
+        margin: 20px;
     }
    .linethrough{
        text-decoration: line-through;
@@ -81,6 +82,10 @@
   #catagery+img+h1{
       text-align: center;
       margin-top: 20px;
+  }
+  #catagery>p{
+      margin-top: 30px;
+      margin-bottom: 20px;
   }
   .review {
       padding: auto 50px;
@@ -121,3 +126,4 @@
   #slider_emage>p{
       margin: 0 0;
   }
+  

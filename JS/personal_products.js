@@ -82,6 +82,7 @@ function display_products(product){
         img.setAttribute("src",el.emage_url);
         var name = document.createElement("p");
         name.innerText = el.name;
+        name.setAttribute("class","productname");
         var price = document.createElement("h2");
         price.innerText = "₹"+el.price;
         var catagry = document.createElement("button");
