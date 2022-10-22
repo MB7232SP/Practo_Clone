@@ -26,7 +26,6 @@ In this project we had to practo website clone. This whole project is made by us
   <li>Signin/Signup</li>
   <li>Buy medicine and skin products</li>
   <li>Payment gateway</li>
-  <li>Responsive</li>
 </ul>
 
 ## Some screenshots of the project :-
