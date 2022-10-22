@@ -32,31 +32,17 @@ In this project we had to practo website clone. This whole project is made by us
 
 ## Home Page
 
-<img src="./Frontend/public/images/Homepage.PNG" />
-<img src="https://i.ibb.co/cYj9ngp/Screenshot-from-2022-06-30-11-32-25.png" />
-<img src="./Frontend/public/images/Homepage-2.PNG" />
-<img src="https://i.ibb.co/MMVbn9k/Screenshot-from-2022-06-30-11-18-39.png" />
+  <img src="./img/hhomepage.png" alt="">
 
 ## Sign In page
 
-<img src="./Frontend/public/images/sign in page.png" />
-<img src="./Frontend/public/images/googlepage.png" />
+<img src="./img/Login.png" alt="">
+ 
+## Register page
+   <img src="./img//register.png" alt="">
 
-## Hotel booking page
-<img src="./Frontend/public/images/hotelpage.png" />
-
-## Hotel detail page
-<img src="https://i.ibb.co/QYw37RH/Screenshot-from-2022-06-30-11-35-03.png" />
-
-
-## Car booking page
-<img src="./Frontend/public/images/carpage.png" />
-
-## Car detail page
-<img src="./Frontend/public/images/cardetail.PNG" />
-
-## Payment page
-<img src="./Frontend/public/images/payment.PNG" />
+## Product page
+<img src="./img//product.png" alt="">
 
 
 ### Thanks for Reading.
