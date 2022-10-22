@@ -205,7 +205,7 @@ display_footer(x)
 x.addListener(display_footer)
 window.onresize = function(event)
 {
-document.location.reload(true);
+// document.location.reload(true);
 }
 function display_footer(x) {
     if (x.matches) { 
